@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.MyPub" parent="Theme.AppCompat.Light" />
+    <style name="Theme.MyPub" parent="Theme.AppCompat.Light.NoActionBar" >
+        <item name="colorPrimary">@color/Primary</item>
+        <item name="colorPrimaryDark">@color/PrimaryDark</item>
+        <item name="colorAccent">@color/Accent</item>
+    </style>
 </resources>
