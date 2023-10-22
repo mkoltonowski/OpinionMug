@@ -4,10 +4,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <SearchView
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="494dp"
-        android:layout_weight="1" />
+        android:layout_height="506dp"
+        android:layout_weight="1"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView"
