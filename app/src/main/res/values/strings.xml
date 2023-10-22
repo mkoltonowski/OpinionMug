@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">MyPub</string>
+    <string name="app_name">Kufel opinii</string>
+    <string name="main_activity_name">Kufel opinii</string>
 </resources>
